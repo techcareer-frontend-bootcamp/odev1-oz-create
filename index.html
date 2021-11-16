@@ -1,38 +1,63 @@
-
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
-   <meta charset="utf-8" /> 
-   <meta name=”viewport” content=”width=device-width, initial-scale=1.0”> 
-   <title>HTML5 EĞİTİMLERİ</title>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+          <style>
+                    body{
+                              max-width: 1200px;
+                              margin: auto;
+                    }
+                    header,nav,section,article,footer,div{
+                              border: 1px solid grey;
+                              margin: 25px;
+                              padding: 10px;
 
-   <style type="text/css">
-     body {
-       max-width: 1200px;
-       margin: auto;
-     }
-     header, nav, section, article, footer {
-      border: 1px solid grey;
-      margin: 25px;
-      padding: 10px;
-     }
+                    }
+                    nav ul li{
+                              display: inline;
+                    }
 
-     nav ul li,
-     nav ol li { 
-       display: inline; 
-      }
-   </style>
-
+          </style>
 </head>
-
 <body>
+          <header>
+                 <h1>HTML İSKELET YAPISI</h1>    
+          </header>
+        <nav>
+         <ul>
+                   <li><a href="#">Anasayfa</a></li>
+                   <li><a href="#">Hakkımızda</a></li>
+                   <li><a href="#">Kalite</a></li>
+                   <li><a href="#">İletişim</a></li>
+         </ul>
+       </nav>
+         <section>
+                   <h2>Ünlü Ülkeler</h2>
+                   <div>
+                             <h3>Türkiye</h3>
+                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum quos doloremque tenetur soluta non ad, aliquam distinctio asperiores? Velit, incidunt distinctio iure accusantium iusto corrupti vero debitis magni amet enim!</p>
+                   </div>
+                   <div>
+                    <h3>İrlanda</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum quos doloremque tenetur soluta non ad, aliquam distinctio asperiores? Velit, incidunt distinctio iure accusantium iusto corrupti vero debitis magni amet enim!</p>
+                   </div>
+         </section>
 
-  <!-- Header  -->  
-  <!-- Menu  --> 
- 
-  <!-- Content  --> 
-
-  <!-- Footer  -->  
-
+         <article>
+                   <h2>Contact</h2>
+                   <form action="">
+                  <label >Kullanıcı adı:</label> <input type="text" required placeholder="zorunlu alan">
+                  <label >Mail:</label>  <input type="mail" required placeholder="zorunlu alan"> 
+                  <label >Konu:</label>  <input type="text" required placeholder="zorunlu alan">
+                  <label >Konu: </label> <input type="checkbox" name="checkbox"> <input type="reset" value="Temizle"/> <input type="submit" value ="Gönder"/>
+                  </form>
+         </article>
+      
+         <footer>
+                   2022 Tüm Hakları Saklıdır.
+         </footer>
 </body>
 </html>
